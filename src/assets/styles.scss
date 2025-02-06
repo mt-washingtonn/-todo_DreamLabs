@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #352f5b;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  h1 {
+    font-size: 32px;
+  }
+}
