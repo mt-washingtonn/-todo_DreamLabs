@@ -75,6 +75,7 @@ const showMoreHandle = () => {
     border-radius: 12px;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
+    filter: drop-shadow(5px 5px 10px #000);
 
     .todo-strings {
         width: 560px;

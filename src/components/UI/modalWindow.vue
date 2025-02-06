@@ -24,11 +24,14 @@ defineProps({
 
 <style lang="scss" scoped>
 main {
+    cursor: pointer;
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    backdrop-filter: blur(10px);
     filter: drop-shadow(5px 5px 10px #000);
 
     div {
