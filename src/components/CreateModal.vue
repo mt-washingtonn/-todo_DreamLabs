@@ -40,6 +40,7 @@ const createTodo = () => {
 
 <style lang="scss" scoped>
 .modal-inputs {
+    margin-top: 28px;
     display: flex;
     flex-direction: column;
     font-size: 12px;
@@ -50,6 +51,7 @@ const createTodo = () => {
         background-color: #5c529d;
         padding: 12px;
         border-radius: 12px;
+
     }
 
     .input-description {
@@ -72,6 +74,7 @@ button {
     background-color: #352f5b;
     border-radius: 12px 12px 12px 12px;
     transition: background-color 0.2s ease-in-out;
+    color: white;
 }
 
 p {

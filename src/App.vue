@@ -84,6 +84,7 @@ button {
   background-color: #423a6f;
   border-radius: 12px 12px 12px 12px;
   transition: background-color 0.2s ease-in-out;
+  color: white;
 
   .icon {
     font-size: 1.3em;
@@ -114,6 +115,7 @@ button {
     background-color: #5c529d;
     border-radius: 12px;
     cursor: pointer;
+    color: white;
 
     option {
       color: white;
@@ -127,6 +129,7 @@ button {
     padding: 12px;
     border-radius: 12px;
     cursor: pointer;
+    color: white;
   }
 
 
