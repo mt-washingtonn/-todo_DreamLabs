@@ -106,6 +106,7 @@ const showMoreHandle = () => {
         margin-left: 20px;
         display: flex;
         flex-direction: column;
+        color: white;
 
         button {
             padding: 12px;
@@ -114,6 +115,7 @@ const showMoreHandle = () => {
             border-radius: 12px;
             transition: background-color 0.2s ease-in-out;
             cursor: pointer;
+            color: white;
 
             .icon {
                 font-size: 1.3em;

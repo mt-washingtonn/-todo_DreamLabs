@@ -51,6 +51,7 @@ const createTodo = () => {
         background-color: #5c529d;
         padding: 12px;
         border-radius: 12px;
+        color: white;
 
     }
 
@@ -60,6 +61,7 @@ const createTodo = () => {
         border-radius: 12px;
         resize: none;
         overflow: hidden;
+        color: white;
     }
 
     ::placeholder {

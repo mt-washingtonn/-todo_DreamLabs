@@ -132,6 +132,10 @@ button {
     color: white;
   }
 
+  .filter-date {
+    color: white;
+  }
+
 
   ::placeholder {
     color: white;
