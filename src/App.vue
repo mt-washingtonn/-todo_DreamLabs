@@ -6,16 +6,12 @@ import { ref, computed } from 'vue';
 import CreateModal from './components/CreateModal.vue';
 import modalWindow from './components/UI/modalWindow.vue';
 
-
-
 const todoStore = useTodoStore()
 const modal = ref(false)
 
 const openModal = () => {
   modal.value = true
 }
-
-
 
 const searchQuery = ref("");
 const selectedDate = ref("");
@@ -38,9 +34,6 @@ const filteredTodos = computed(() => {
     return matchesQuery && matchesDate && matchesStatus;
   });
 });
-
-
-
 
 </script>
 
